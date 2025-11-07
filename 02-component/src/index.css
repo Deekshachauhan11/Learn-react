@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+    font-family: monospace;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+.card{
+  background-color: pink;
+  border-radius: 0.6rem;
+  margin: 2rem;
+  padding: 2rem;
+}
+.nav{
+  background-color: lightblue;
+  padding: 1rem;
+}
