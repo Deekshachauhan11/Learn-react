@@ -2,11 +2,11 @@ import React from 'react'
 import 'remixicon/fonts/remixicon.css'
 import RightCardContent from './Section1/RightCardContent'
 
-const RightCard = () => {
+const RightCard = (props) => {
   return (
-    <div className='h-full w-80 bg-amber-300 rounded-4xl overflow-hidden relative'>
-      <img className='h-full w-full object-cover' src='https://i.pinimg.com/736x/7d/f2/fb/7df2fbc4f4d2e2f9e48e70fa7a9999c4.jpg' alt='img'></img>
-    <RightCardContent />
+    <div className='h-full w-80  shrink-0 rounded-4xl overflow-hidden relative'>
+      <img className='h-full w-full object-cover' src={props.img} alt='img'></img>
+    <RightCardContent id={props.id} tag={props.tag} color={props.color}/>
     </div>
   )
 }
