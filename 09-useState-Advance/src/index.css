@@ -3,9 +3,29 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'helvetica neue';
+    color: #fff;
 }
 html,
 body {
     height: 100%;
     width: 100%;
+    background-color: black;
+}
+button{
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: gray;
+    border-radius: 5px;
+    font-size: 1.4rem;
+}
+button:active{
+    scale: 0.95;
+}
+h1{
+    margin: 20px;
+    padding: 10px 80px;
+    font-size: 2rem;
+    background-color: gray;
+    width: fit-content;
+    border-radius: 5px;
 }
