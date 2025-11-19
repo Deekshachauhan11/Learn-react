@@ -10,9 +10,9 @@ body {
     height: 100%;
     width: 100%;
 }
-/* body{
+body{
   background-color: black;
-} */
+}
 .nav{
   display: flex;
   background-color: lightseagreen;
